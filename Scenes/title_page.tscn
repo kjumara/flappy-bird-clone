@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://churyqpx1h5ha"]
+
+[ext_resource type="Texture2D" uid="uid://chkcbdf42oh3y" path="res://icon.svg" id="1_cv3v1"]
+
+[node name="TitlePage" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 479.0
+offset_bottom = 272.0
+
+[node name="TitleScreen" type="Sprite2D" parent="."]
+position = Vector2(239.5, 137)
+scale = Vector2(3.72656, 2.125)
+texture = ExtResource("1_cv3v1")
+
+[node name="Start" type="Button" parent="."]
+offset_left = 13.0
+offset_top = 192.0
+offset_right = 158.0
+offset_bottom = 243.0
+text = "START"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 238.0
+offset_top = 160.0
+offset_right = 427.0
+offset_bottom = 244.0
+text = "QUIT"

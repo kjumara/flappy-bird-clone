@@ -1,3 +1,11 @@
-[gd_scene format=3 uid="uid://gtcm3rsby1al"]
+[gd_scene load_steps=2 format=3 uid="uid://gtcm3rsby1al"]
+
+[ext_resource type="Texture2D" uid="uid://b1trkwgrcuuei" path="res://Assets/Art/BackgroundClouds.png" id="1_it2pa"]
 
 [node name="Level" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 479.0
+offset_bottom = 272.0
+texture = ExtResource("1_it2pa")
+expand_mode = 1
